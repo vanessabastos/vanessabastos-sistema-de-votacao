@@ -1,5 +1,10 @@
 package com.trybe.acc.java.sistemadevotacao;
 
-public class Pessoa {
+abstract class Pessoa {
+  public String nome;
+
+  abstract String getNome();
+
+  abstract void setNome(String nome);
 
 }

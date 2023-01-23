@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class Principal {
 
+  /**Gerencia sistema de votação.*/
+
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     short opcaoDePessoaCandidata;

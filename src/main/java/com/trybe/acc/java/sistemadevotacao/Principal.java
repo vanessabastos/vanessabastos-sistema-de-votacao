@@ -65,7 +65,7 @@ public class Principal {
         System.out.print("Entre com o número da pessoa candidata:");
         int numeroVotacao = scan.nextInt();
         
-        gerenciamentoVotacao.votacao(cpfVotacao, numeroVotacao);
+        gerenciamentoVotacao.votar(cpfVotacao, numeroVotacao);
       }
       
       if (opcaoDeVotacao == 2) {

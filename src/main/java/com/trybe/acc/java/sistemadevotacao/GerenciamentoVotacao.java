@@ -58,7 +58,7 @@ public class GerenciamentoVotacao {
   
   /**Método de Votação.*/
   
-  public void votacao(String cpfPessoaEleitora, int numeroPessoaCandidata) {
+  public void votar(String cpfPessoaEleitora, int numeroPessoaCandidata) {
     if (cpfComputado.contains(cpfPessoaEleitora)) {
       System.out.println("Pessoa eleitora já votou!");
       return;

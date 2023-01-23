@@ -5,6 +5,8 @@ package com.trybe.acc.java.sistemadevotacao;
 public class PessoaCandidata extends Pessoa {
   private int numero;
   private int votos;
+  
+  /**Método Pessoa Candidata.*/
     
   public PessoaCandidata(String nome, int numero) {
     super.nome = nome;
